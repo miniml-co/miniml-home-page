@@ -1,0 +1,24 @@
+{
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            },
+            "fonts.fontSize": "12px",
+            "linting.collapsed": true,
+            "hirse.outline.enabled": true,
+            "custom.work.useIconsOfCustomWork": false,
+            "custom.work.moveToolbarToSidebar": false,
+            "custom.work.grayScaleIcons": false,
+            "custom.work.toggle.sidebar": true,
+            "custom.work.autoHideTheTabmenu": true,
+            "custom.work.scrollwheel": true,
+            "brackets-minimap.width": 121,
+            "brackets-minimap.adjusttop": 30
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="57" viewBox="0 0 62 57">
+    <defs>
+        <path id="a" d="M37 50c13.807 0 25-11.193 25-25S50.807 0 37 0c-9.93 0-18.508 5.79-22.542 14.177"/>
+        <mask id="b" width="47.542" height="50" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path id="c" d="M0 13h38v44H0z"/>
+        <path id="d" d="M27.25 32.25h37.5v3h-37.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use stroke="#6A6AFF" stroke-dasharray="3,3" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+        <path stroke="#16161D" d="M37.474 45.817C48.837 45.66 58 36.4 58 25c0-11.498-9.321-20.82-20.82-20.82a20.8 20.8 0 0 0-17.538 9.598l17.832 32.039z"/>
+        <path stroke="#6A6AFF" d="M45 52.419l1 3 1-3V52h-2v.419z"/>
+        <use fill="#EDEDF1" xlink:href="#c"/>
+        <path stroke="#16161D" stroke-width="2" d="M1 14h36v42H1z"/>
+        <g transform="rotate(-90 46 33.75)">
+            <use fill="#EDEDF1" xlink:href="#d"/>
+            <path stroke="#16161D" d="M27.75 32.75h36.5v2h-36.5z"/>
+        </g>
+        <path stroke="#16161D" d="M47.5 17.5h1V29M45 15.5v-2h2v2z"/>
+        <circle cx="19" cy="28" r="4.5" stroke="#6A6AFF"/>
+        <circle cx="24" cy="23" r="1" stroke="#6A6AFF" transform="matrix(-1 0 0 1 48 0)"/>
+        <path stroke="#16161D" stroke-dasharray="2,3" stroke-linecap="square" d="M10.5 38.5h17M10.5 42.5h17M10.5 46.5h3"/>
+    </g>
+</svg>
