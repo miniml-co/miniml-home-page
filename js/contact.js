@@ -1,6 +1,8 @@
 $(function() {
   
-  
+
+  initMap()
+   
   // form validations
   var form = $(".contact-form");
   form.validate({
@@ -33,11 +35,14 @@ function submitForm() {
     url: "../php/contact.php",
     data: mydata,
     success: function(response, textStatus, xhr) {
+      console.log(response)
       $('.button-wrap img').addClass('sent')
       $('.button-wrap button').html('Sent')
       $(".contact-form").addClass('form-disabled')
     },
-    error: function(xhr, textStatus, errorThrown) {}
+    error: function(xhr, textStatus, errorThrown) {
+      console.log(errorThrown)
+    }
   });
 }
 
